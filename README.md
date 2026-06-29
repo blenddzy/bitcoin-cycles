@@ -90,6 +90,3 @@ bitcoin-cycles/
 - **Jupyter Notebook**
 - **Fuentes:** Glassnode (on-chain), CoinGecko (precios), CryptoQuant, datos públicos blockchain
 
----
-
-*Autor: Federico Gregori | [github.com/blenddzy](https://github.com/blenddzy) | Junio 2026*
