@@ -7,6 +7,10 @@ y métricas on-chain, con proyección de escenarios hasta el Halving 5 (2028).
 
 ---
 
+![patron](assets/story_01_patron.png)
+
+---
+
 ## 🎯 Pregunta central
 
 Bitcoin tocó un ATH de **$126.198** en octubre de 2025.  
@@ -28,27 +32,7 @@ Hoy (junio 2026) cotiza en **~$65.000** — una corrección del **-48%**.
 
 ---
 
-## 🗂️ Estructura del proyecto
-
-```
-bitcoin-cycles/
-├── data/
-│   └── raw/
-│       ├── halving_history.csv      # Los 4 halvings con precios y retornos
-│       ├── price_monthly.csv        # Precio mensual 2011–2026
-│       └── onchain_metrics.csv      # MVRV, NUPL, SOPR, Hash Rate (jun 2026)
-├── notebooks/
-│   └── bitcoin_cycles_analysis.ipynb
-└── outputs/
-    ├── 01_precio_historico.png
-    ├── 02_rendimientos_ciclos.png
-    ├── 03_overlay_ciclos.png
-    ├── 04_onchain_dashboard.png
-    ├── 05_ciclo4_proyeccion.png
-    ├── story_01_patron.png          # LinkedIn: el patrón de 4 años
-    ├── story_02_hoy.png             # LinkedIn: dónde estamos hoy
-    └── story_03_escenarios.png      # LinkedIn: escenarios 2026–2028
-```
+![overlay](assets/03_overlay_ciclos.png)
 
 ---
 
@@ -73,6 +57,33 @@ Todo este análisis descansa en **4 ciclos completos**. Es muy poco para afirmar
 
 ---
 
+![escenarios](assets/story_03_escenarios.png)
+
+---
+
+## 🗂️ Estructura del proyecto
+
+```
+bitcoin-cycles/
+├── assets/                          # Imágenes para el README
+├── data/
+│   └── raw/
+│       ├── halving_history.csv      # Los 4 halvings con precios y retornos
+│       ├── price_monthly.csv        # Precio mensual 2011–2026
+│       └── onchain_metrics.csv      # MVRV, NUPL, SOPR, Hash Rate (jun 2026)
+├── notebooks/
+│   └── bitcoin_cycles_analysis.ipynb
+└── outputs/
+    ├── 01_precio_historico.png
+    ├── 02_rendimientos_ciclos.png
+    ├── 03_overlay_ciclos.png
+    ├── 04_onchain_dashboard.png
+    ├── 05_ciclo4_proyeccion.png
+    └── story_0*.png                 # Imágenes resumen estilo LinkedIn
+```
+
+---
+
 ## 🔧 Stack técnico
 
 - **Python 3.11** — pandas, matplotlib, numpy
@@ -80,5 +91,5 @@ Todo este análisis descansa en **4 ciclos completos**. Es muy poco para afirmar
 - **Fuentes:** Glassnode (on-chain), CoinGecko (precios), CryptoQuant, datos públicos blockchain
 
 ---
- 
- 
+
+*Autor: Federico Gregori | [github.com/blenddzy](https://github.com/blenddzy) | Junio 2026*
