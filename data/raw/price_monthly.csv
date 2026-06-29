@@ -1,0 +1,33 @@
+fecha,precio_usd,ciclo,evento
+2011-06-01,31,pre-c1,early peak
+2011-11-01,2,pre-c1,ciclo bottom 1
+2012-11-01,12,c1,halving 1
+2013-04-01,266,c1,primer peak
+2013-11-01,1150,c1,ath ciclo 1
+2014-06-01,600,bear1,bear market
+2015-01-01,150,bear1,bottom ciclo 2
+2016-07-01,650,c2,halving 2
+2017-06-01,3000,c2,mid bull
+2017-12-01,19700,c2,ath ciclo 2
+2018-06-01,6500,bear2,bear market
+2018-12-01,3200,bear2,bottom ciclo 3
+2019-06-01,13000,c3,recovery
+2020-03-01,4800,c3,covid crash
+2020-05-01,8727,c3,halving 3
+2020-12-01,28000,c3,primer ath
+2021-04-01,58000,c3,segundo peak
+2021-11-01,69000,c3,ath ciclo 3
+2022-06-01,20000,bear3,bear market
+2022-11-01,15460,bear3,bottom ciclo 4
+2023-01-01,17000,c4,recovery inicio
+2023-06-01,30000,c4,recovery
+2024-01-01,45000,c4,etf launch
+2024-04-01,64968,c4,halving 4
+2024-07-01,55000,c4,post-halving dip
+2024-10-01,72000,c4,trump rally
+2025-01-01,95000,c4,new ath territory
+2025-05-01,103000,c4,consolidacion
+2025-10-01,126198,c4,ath ciclo 4
+2025-11-01,108000,c4,inicio correccion
+2026-02-01,68000,c4,correccion severa
+2026-06-01,65000,c4,actual

@@ -1,0 +1,5 @@
+numero,fecha,reward_antes,reward_despues,precio_halving,precio_bottom,precio_ath,dias_halving_a_ath,retorno_halving_a_ath_pct,drawdown_post_ath_pct
+1,2012-11-28,50,25,12,2,1150,366,8483,-84
+2,2016-07-09,25,12.5,650,150,19700,526,2931,-83
+3,2020-05-11,12.5,6.25,8727,3200,69000,547,691,-77
+4,2024-04-20,6.25,3.125,64968,15460,126198,535,94,-48

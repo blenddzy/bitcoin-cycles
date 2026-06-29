@@ -1,0 +1,8 @@
+metrica,valor_actual,zona,descripcion,señal
+MVRV_Z_Score,0.22,Acumulacion,"Desviacion del precio vs costo realizado. <1=subvalorado >3.5=sobrevaluado","COMPRA historica"
+NUPL,0.12,Hope_Fear,"% del mercado en ganancia no realizada. <0=capitulacion >0.75=euforia","NEUTRAL-POSITIVO"
+SOPR,0.95,Vendedores_en_perdida,"Ratio ganancia/perdida de outputs gastados. <1=vendiendo en perdida","ACUMULACION"
+Hash_Rate_EH,1000,ATH,"Potencia computacional de la red en ExaHash. ATH historico","POSITIVO red"
+Dias_desde_ATH,263,Post_ATH,"Dias transcurridos desde el ATH de oct 2025","MID-CYCLE"
+Precio_actual_USD,65000,Correccion,"-48% desde ATH de USD 126198","ZONA HISTORICA"
+Realizad_Price_USD,47000,Soporte,"Precio promedio al que se muerio cada BTC por ultima vez","SOPORTE CLAVE"
